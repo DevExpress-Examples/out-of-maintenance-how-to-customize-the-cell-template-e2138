@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/HowToCellTemplate/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/HowToCellTemplate/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/HowToCellTemplate/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/HowToCellTemplate/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/HowToCellTemplate/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/HowToCellTemplate/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to: Customize the Cell Template
 
