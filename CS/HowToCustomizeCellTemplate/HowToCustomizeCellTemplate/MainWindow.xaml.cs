@@ -1,25 +1,23 @@
-﻿using System.Data;
-using System.Data.OleDb;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.Windows;
-using DevExpress.Xpf.PivotGrid;
-using HowToBindToMDB.NwindDataSetTableAdapters;
-using System.Windows.Markup;
 using System.Windows.Data;
-using System;
-using System.Windows.Media;
+using System.Windows.Markup;
 
-namespace HowToBindToMDB {
+namespace HowToCustomizeCellTemplate
+{
     public partial class MainWindow : Window {
-        NwindDataSet.SalesPersonDataTable salesPersonDataTable = new NwindDataSet.SalesPersonDataTable();
-        SalesPersonTableAdapter salesPersonDataAdapter = new SalesPersonTableAdapter();
+        public ObservableCollection<MyOrderRow> OrderSourceList { get; set; }
 
         public MainWindow() {
             InitializeComponent();
-            pivotGridControl1.DataSource = salesPersonDataTable;
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e) {
-            salesPersonDataAdapter.Fill(salesPersonDataTable);
+            OrderSourceList = DatabaseHelper.CreateData();
+            pivotGridControl1.DataSource = OrderSourceList;
+            pivotGridControl1.BestFitArea = DevExpress.Xpf.PivotGrid.FieldBestFitArea.FieldHeader;
+            pivotGridControl1.BestFit();
         }
     }
 

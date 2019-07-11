@@ -7,8 +7,14 @@
 # How to: Customize the Cell Template
 
 
-<p>The following example demonstrates how to use the <strong>PivotGridControl</strong>'s <strong>FieldCellTemplate</strong> property to customize the appearance of data fields.</p>
+This example demonstrates how to use the [PivotGridControl.FieldCellTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridControl.FieldCellTemplate) property to customize the cell appearance.
 
-<br/>
+The cell displays its value in a [ProgressBar](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.progressbar) control with the [Maximum](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.primitives.rangebase.maximum) value bound to the [CellElementData.RowTotalValue](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.CellElementData.RowTotalValue) property.
 
 
+
+![screenshot](/images/screenshot.png)
+
+See also:
+
+* [Pivot Grid Elements that Support Templates](https://docs.devexpress.com/WPF/8400)
