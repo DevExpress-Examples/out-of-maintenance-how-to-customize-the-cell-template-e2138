@@ -22,4 +22,4 @@ The cell displays its value in a [ProgressBar](https://docs.microsoft.com/en-us/
 ## More Examples
 
 - [Pivot Grid for WPF - Customize CellTemplate with Different Colors](https://github.com/DevExpress-Examples/pivot-grid-for-wpf-customize-cell-template)
-- [Pivot Grid for WPF - How to Edit a Cell with the Cell Editing Template](https://github.com/DevExpress-Examples/how-to-define-a-custom-cell-template-that-allows-performing-data-editing-t410760/tree/pollyndos-patch-1)
+- [Pivot Grid for WPF - How to Edit a Cell with the Cell Editing Template](https://github.com/DevExpress-Examples/how-to-define-a-custom-cell-template-that-allows-performing-data-editing-t410760/)
